@@ -3,6 +3,16 @@
    ========================================================================== */
 
 /**
+ * Variables
+ *
+ * It is recommended to override these.
+ *
+ * 1. Namespace of bits.css's classes.
+ */
+
+$bits-ns: 'bits-' !default; /* 1 */
+
+/**
  * Global states.
  * JavaScript may add/remove/toggle these classes.
  * All other states are component-scoped and use the `is-` prefix.
@@ -12,7 +22,7 @@
  * Completely remove from the flow and screen readers.
  */
 
-.u-isHidden {
+.#{$bits-ns}u-isHidden {
   display: none !important;
   visibility: hidden !important;
 }
@@ -21,7 +31,7 @@
  * Completely remove from the flow but leave available to screen readers.
  */
 
-.u-isHiddenVisually {
+.#{$bits-ns}u-isHiddenVisually {
   position: absolute !important;
   overflow: hidden;
   width: 1px;
@@ -35,11 +45,11 @@
  * Control visibility without affecting flow.
  */
 
-.u-isVisible {
+.#{$bits-ns}u-isVisible {
   visibility: visible !important;
 }
 
-.u-isInvisible {
+.#{$bits-ns}u-isInvisible {
   visibility: hidden !important;
 }
 
@@ -47,14 +57,14 @@
  * Indicate that interaction will result in an (in)action.
  */
 
-.u-isActionable {
+.#{$bits-ns}u-isActionable {
   cursor: pointer;
 }
 
-.u-isDraggable {
+.#{$bits-ns}u-isDraggable {
   cursor: move;
 }
 
-.u-isDisabled {
+.#{$bits-ns}u-isDisabled {
   cursor: default;
 }
