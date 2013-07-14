@@ -7,10 +7,10 @@
  *
  * It is recommended to override these.
  *
- * 1. Namespace of bits.css's classes.
+ * 1. Utility namespace.
  */
 
-$bits-ns: 'bits-' !default; /* 1 */
+$bits-utils-ns: 'bits-' !default; /* 1 */
 
 /**
  * Global states.
@@ -22,7 +22,7 @@ $bits-ns: 'bits-' !default; /* 1 */
  * Completely remove from the flow and screen readers.
  */
 
-.#{$bits-ns}u-isHidden {
+.#{$bits-utils-ns}u-isHidden {
   display: none !important;
   visibility: hidden !important;
 }
@@ -31,7 +31,7 @@ $bits-ns: 'bits-' !default; /* 1 */
  * Completely remove from the flow but leave available to screen readers.
  */
 
-.#{$bits-ns}u-isHiddenVisually {
+.#{$bits-utils-ns}u-isHiddenVisually {
   position: absolute !important;
   overflow: hidden;
   width: 1px;
@@ -45,11 +45,11 @@ $bits-ns: 'bits-' !default; /* 1 */
  * Control visibility without affecting flow.
  */
 
-.#{$bits-ns}u-isVisible {
+.#{$bits-utils-ns}u-isVisible {
   visibility: visible !important;
 }
 
-.#{$bits-ns}u-isInvisible {
+.#{$bits-utils-ns}u-isInvisible {
   visibility: hidden !important;
 }
 
@@ -57,14 +57,14 @@ $bits-ns: 'bits-' !default; /* 1 */
  * Indicate that interaction will result in an (in)action.
  */
 
-.#{$bits-ns}u-isActionable {
+.#{$bits-utils-ns}u-isActionable {
   cursor: pointer;
 }
 
-.#{$bits-ns}u-isDraggable {
+.#{$bits-utils-ns}u-isDraggable {
   cursor: move;
 }
 
-.#{$bits-ns}u-isDisabled {
+.#{$bits-utils-ns}u-isDisabled {
   cursor: default;
 }
