@@ -1,14 +1,14 @@
-# Bits.scss utilities: state
+# Bits.sass utilities: state
 
-Utility classes for state-related CSS. See [other utilities](https://github.com/bits-scss/utils).
+Utility classes for state-related CSS. See [other utilities](https://github.com/bits-sass/utils).
 
-Read more about [Bits.scss toolkit](https://github.com/bits-scss/bits.scss).
+Read more about [Bits.sass toolkit](https://github.com/bits-sass/bits.sass).
 
 ## Installation
 
-* __Bower:__ `bower install --save bits-scss-utils-state`
-* __Download:__ [zip](https://github.com/bits-scss/utils-state/zipball/master), [tar.gz](https://github.com/bits-scss/utils-state/tarball/master)
-* __Git:__ `git clone https://github.com/bits-scss/utils-state.git`
+* __Bower:__ `bower install --save bits-sass-utils-state`
+* __Download:__ [zip](https://github.com/bits-sass/utils-state/zipball/master), [tar.gz](https://github.com/bits-sass/utils-state/tarball/master)
+* __Git:__ `git clone https://github.com/bits-sass/utils-state.git`
 
 ## Available SASS variables
 

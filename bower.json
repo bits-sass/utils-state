@@ -1,6 +1,6 @@
 {
-  "name": "bits-scss-utils-state",
-  "version": "0.3.0",
+  "name": "bits-sass-utils-state",
+  "version": "0.3.1",
   "author": "Lukáš Mladý",
   "main": "_state.scss"
 }
