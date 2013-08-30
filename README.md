@@ -18,11 +18,11 @@ Read more about [Bits.sass toolkit](https://github.com/bits-sass/bits.sass).
 
 * `u-isHidden` - completely remove from the flow and screen readers
 * `u-isHiddenVisually` - completely remove from the flow but leave available to screen readers
-* `u-isVisible` - simple `visibility: visible;`
-* `u-isInvisible` - simple `visibility: hidden;`
-* `u-isActionable` - simple `cursor: pointer;`
-* `u-isDraggable` - simple `cursor: move;`
-* `u-isDisabled` -  simple `cursor: default;`
+* `u-isVisible` - control visibility without affecting flow
+* `u-isInvisible` - control visibility without affecting flow
+* `u-isActionable` - indicate that the element is interactive
+* `u-isDraggable` - indicate that the element is draggable
+* `u-isDisabled` - indicate that the element is not interactive
 
 ## Requirements
 
