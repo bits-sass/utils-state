@@ -1,6 +1,7 @@
 === HEAD
 
 * Add `!important` to all properties
+* Reorder properties
 
 === 0.3.1 (July 20, 2013)
 
