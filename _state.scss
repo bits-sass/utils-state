@@ -12,13 +12,11 @@
 
 $bits-utils-ns: 'bits-' !default; /* 1 */
 
-/**
- * Global states.
- * JavaScript may add/remove/toggle these classes.
- * All other states are component-scoped and use the `is-` prefix.
- */
+/* -------------------------------------------------------------------------- */
 
 /**
+ * Hidden
+ *
  * Completely remove from the flow and screen readers.
  */
 
@@ -28,20 +26,24 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 }
 
 /**
+ * Visually hidden
+ *
  * Completely remove from the flow but leave available to screen readers.
  */
 
 .#{$bits-utils-ns}u-isHiddenVisually {
   position: absolute !important;
-  overflow: hidden;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
 }
 
 /**
+ * Visible
+ *
  * Control visibility without affecting flow.
  */
 
@@ -49,22 +51,44 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
   visibility: visible !important;
 }
 
+/**
+ * Invisible
+ *
+ * Control visibility without affecting flow.
+ */
+
 .#{$bits-utils-ns}u-isInvisible {
   visibility: hidden !important;
 }
 
+/* -------------------------------------------------------------------------- */
+
 /**
- * Indicate that interaction will result in an (in)action.
+ * Actionable
+ *
+ * Indicate that the element is interactive.
  */
 
 .#{$bits-utils-ns}u-isActionable {
-  cursor: pointer;
+  cursor: pointer !important;
 }
+
+/**
+ * Draggable
+ *
+ * Indicate that the element is draggable.
+ */
 
 .#{$bits-utils-ns}u-isDraggable {
-  cursor: move;
+  cursor: move !important;
 }
 
+/**
+ * Disabled
+ *
+ * Indicate that the element is not interactive.
+ */
+
 .#{$bits-utils-ns}u-isDisabled {
-  cursor: default;
+  cursor: default !important;
 }
