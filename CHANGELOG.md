@@ -2,6 +2,7 @@
 
 * Add `!important` to all properties
 * Reorder properties
+* Use new style for comments
 
 === 0.3.1 (July 20, 2013)
 

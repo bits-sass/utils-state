@@ -2,21 +2,19 @@
    States utilities
    ========================================================================== */
 
+/* Variables
+   ========================================================================== */
+
 /**
- * Variables
- *
- * It is recommended to override these.
- *
- * 1. Utility namespace.
+ * Bits.sass utilities namespace
  */
 
-$bits-utils-ns: 'bits-' !default; /* 1 */
+$bits-utils-ns: 'bits-' !default;
 
-/* -------------------------------------------------------------------------- */
+/* Visibility
+   ========================================================================== */
 
 /**
- * Hidden
- *
  * Completely remove from the flow and screen readers.
  */
 
@@ -26,8 +24,6 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 }
 
 /**
- * Visually hidden
- *
  * Completely remove from the flow but leave available to screen readers.
  */
 
@@ -43,8 +39,6 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 }
 
 /**
- * Visible
- *
  * Control visibility without affecting flow.
  */
 
@@ -52,21 +46,14 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
   visibility: visible !important;
 }
 
-/**
- * Invisible
- *
- * Control visibility without affecting flow.
- */
-
 .#{$bits-utils-ns}u-isInvisible {
   visibility: hidden !important;
 }
 
-/* -------------------------------------------------------------------------- */
+/* Interaction
+   ========================================================================== */
 
 /**
- * Actionable
- *
  * Indicate that the element is interactive.
  */
 
@@ -75,8 +62,6 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 }
 
 /**
- * Draggable
- *
  * Indicate that the element is draggable.
  */
 
@@ -85,8 +70,6 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 }
 
 /**
- * Disabled
- *
  * Indicate that the element is not interactive.
  */
 
